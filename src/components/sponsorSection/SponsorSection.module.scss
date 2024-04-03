@@ -1,0 +1,21 @@
+.sponsor {
+	position: relative;
+	margin-top: 140px;
+	margin-bottom: 140px;
+
+	.sponsor__intro {
+		margin-bottom: 100px;
+	}
+
+	.sponsor__list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 16px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.sponsor__list {
+		justify-content: center;
+	}
+}

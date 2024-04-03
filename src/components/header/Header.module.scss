@@ -1,0 +1,36 @@
+.header {
+	position: relative;
+	background-color: #f7ede8;
+	padding-top: 30px;
+
+	.header__header {
+		// display: flex;
+		// align-items: center;
+		// justify-content: space-between;
+	}
+
+	.header__navigation {
+		display: flex;
+		align-items: center;
+		gap: 123px;
+		justify-content: space-between;
+	}
+
+	.header__burger {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.header {
+		.header__burger {
+			display: block;
+		}
+
+		.header__header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+	}
+}

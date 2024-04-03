@@ -1,0 +1,1 @@
+interface ISubscriber extends IMember {}

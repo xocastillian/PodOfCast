@@ -1,0 +1,13 @@
+.item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+
+	.item__text {
+		max-width: 472px;
+		font-weight: 500;
+		line-height: 160%;
+		text-align: center;
+	}
+}

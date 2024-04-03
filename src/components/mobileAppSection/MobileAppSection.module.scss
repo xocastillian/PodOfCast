@@ -1,0 +1,67 @@
+.mobileApp {
+	position: relative;
+	padding-top: 140px;
+	padding-bottom: 140px;
+	background-color: #edf3f7;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.beta {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 160%;
+		color: #cd4631;
+		padding: 3px 6px;
+		border: 1px solid #cd4631;
+		border-radius: 4px;
+		text-align: center;
+	}
+
+	.mobileApp__intro {
+		margin-top: 20px;
+		margin-bottom: 140px;
+		max-width: 486px;
+		text-align: center;
+	}
+
+	.mobileApp__link {
+		margin-bottom: 25px;
+	}
+
+	.mobileApp__available {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.available__text {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 160%;
+		color: #4d4d4d;
+		margin-bottom: 10px;
+	}
+
+	.available__links {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+		text-align: center;
+	}
+
+	.mobile1 {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 20%;
+	}
+
+	.mobile2 {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 20%;
+	}
+}

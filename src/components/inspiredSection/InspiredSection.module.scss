@@ -1,0 +1,23 @@
+.inspired {
+	position: relative;
+	padding-bottom: 140px;
+
+	.inspired__intro {
+		text-align: center;
+		margin-top: 140px;
+	}
+
+	.inspired__items {
+		margin-top: 100px;
+		margin-bottom: 140px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
+
+@media (max-width: 480px) {
+	.inspired__items {
+		flex-direction: column;
+	}
+}

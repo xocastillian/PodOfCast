@@ -1,0 +1,29 @@
+.recent {
+	position: relative;
+	background-color: #f7ede8;
+	padding-top: 140px;
+	padding-bottom: 140px;
+
+	.recent__intro {
+		margin-bottom: 100px;
+	}
+
+	.recent__list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+
+	.recent__all {
+		text-align: center;
+		margin-top: 100px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.recent__list {
+		flex-wrap: nowrap;
+		flex-direction: column;
+		align-items: center;
+	}
+}

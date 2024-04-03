@@ -1,0 +1,14 @@
+.ourSponsorSwiper {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+
+@media (max-width: 1440px) {
+	.ourSponsorSwiper {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 50px;
+	}
+}

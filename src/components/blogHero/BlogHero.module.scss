@@ -1,0 +1,43 @@
+.blogHero {
+	padding-top: 70px;
+	padding-bottom: 120px;
+	background-color: #f7ede8;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.blogHero__title {
+		font-weight: 700;
+		font-size: 96px;
+		line-height: 100%;
+		letter-spacing: -0.04em;
+	}
+
+	.title__accent {
+		color: #cd4631;
+	}
+
+	.blogHero__text {
+		width: 766px;
+		text-align: center;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 160%;
+		color: #4d4d4d;
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	.blogHero__text {
+		width: auto !important;
+	}
+}
+
+@media (max-width: 480px) {
+	.blogHero__title {
+		width: auto !important;
+		font-size: 60px !important;
+	}
+}

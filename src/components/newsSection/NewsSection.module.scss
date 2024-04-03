@@ -1,0 +1,26 @@
+.news {
+	padding-top: 140px;
+	padding-bottom: 140px;
+
+	.news__intro {
+		margin-bottom: 100px;
+	}
+
+	.news__list {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.news__link {
+		text-align: center;
+		margin-top: 100px;
+	}
+}
+
+@media (max-width: 768px) {
+	.news__list {
+		flex-direction: column;
+		gap: 25px;
+	}
+}

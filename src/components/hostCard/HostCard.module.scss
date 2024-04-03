@@ -1,0 +1,68 @@
+.hostCard {
+	display: flex;
+	gap: 20px;
+	padding: 16px;
+	background-color: #fff;
+	border: 2px solid #000;
+	border-radius: 8px;
+	box-shadow: 10px 10px 0px 0px #000000;
+	width: 570px;
+	height: 520px;
+
+	.img__item {
+		border-radius: 8px;
+	}
+
+	.hostcard__descr {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+
+	.info__name {
+		font-weight: 700;
+		font-size: 36.65px;
+		line-height: 100%;
+		letter-spacing: -0.02em;
+	}
+
+	.info__text {
+		width: 259px;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 160%;
+		color: #4d4d4d;
+		margin-top: 20px;
+	}
+
+	.info__socials {
+		display: flex;
+		gap: 20px;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 160%;
+		color: #4d4d4d;
+		justify-content: flex-end;
+		padding-top: 10px;
+		border-top: 1px solid #4d4d4d;
+		margin-top: 20px;
+	}
+
+	.socials__links {
+		display: flex;
+		gap: 10px;
+	}
+
+	.links__item {
+		display: flex;
+		align-items: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.hostCard {
+		flex-direction: column;
+		width: auto;
+		height: auto;
+	}
+}

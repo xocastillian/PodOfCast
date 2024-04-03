@@ -1,0 +1,12 @@
+.heroSection {
+	padding-top: 60px;
+	background-color: #f7ede8;
+	padding-bottom: 140px;
+
+	.heroSection__intro {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 60px;
+	}
+}

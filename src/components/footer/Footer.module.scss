@@ -1,0 +1,148 @@
+.footer {
+	margin-top: 140px;
+	margin-bottom: 80px;
+
+	.footer__head {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+
+	.head__intro {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+		align-items: flex-start;
+	}
+
+	.intro__logo {
+		display: flex;
+		align-items: flex-end;
+		gap: 24px;
+	}
+
+	.copyDate {
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 160%;
+		color: #4d4d4d;
+	}
+
+	.intro__text {
+		max-width: 220px;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 160%;
+		color: #4d4d4d;
+	}
+
+	.intro__socials {
+		display: flex;
+		align-items: center;
+		gap: 25px;
+	}
+
+	.head__links {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.links__item {
+		transition: color 0.2s linear;
+
+		&:hover {
+			color: #cd4631;
+		}
+	}
+
+	.head__platforms {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 160%;
+		color: #4d4d4d;
+	}
+
+	.platforms__items {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+		margin-top: 30px;
+	}
+
+	.platforms__available {
+		margin-top: 60px;
+	}
+
+	.available__links {
+		margin-top: 20px;
+		display: flex;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.footer__foot {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-top: 20px;
+		border-top: 1px solid #4d4d4d;
+		margin-top: 140px;
+
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 160%;
+		color: #4d4d4d;
+	}
+
+	.copy__naming {
+		color: #cd4631;
+	}
+
+	.foot__privacy {
+		display: flex;
+		gap: 10px;
+	}
+
+	.privacy__link {
+		transition: color 0.2s linear;
+
+		&:hover {
+			color: #cd4631;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.footer {
+		margin-top: 70px;
+	}
+
+	.footer__head {
+		flex-direction: column;
+		align-items: center !important;
+		gap: 50px;
+		text-align: center;
+	}
+
+	.head__intro {
+		align-items: center !important;
+	}
+
+	.platforms__available {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.platforms__items {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 360px) {
+	.footer__foot {
+		flex-direction: column;
+		gap: 10px;
+	}
+}

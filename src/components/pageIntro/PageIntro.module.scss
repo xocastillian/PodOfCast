@@ -1,0 +1,30 @@
+.pageIntro {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	align-items: center;
+
+	.pageIntro__title {
+		width: 513px;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 96px;
+		line-height: 96px;
+		letter-spacing: -0.04em;
+	}
+
+	.pageIntro__text {
+		max-width: 374px;
+		font-weight: 500;
+		line-height: 160%;
+		color: #4d4d4d;
+	}
+}
+
+@media (max-width: 480px) {
+	.pageIntro__title {
+		font-size: 60px !important;
+		line-height: 70px !important;
+	}
+}

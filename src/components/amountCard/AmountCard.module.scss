@@ -1,0 +1,38 @@
+.amountCard {
+	width: 373px;
+	height: 235px;
+	padding: 60px 95px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 8px;
+	box-shadow: 6px 6px 0px 0px #cd4631;
+
+	.amountCard__amount {
+		font-weight: 700;
+		font-size: 59.3px;
+		line-height: 120%;
+		letter-spacing: -0.02em;
+		color: #cd4631;
+	}
+
+	.amountCard__whos {
+		width: 185px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 160%;
+		text-align: center;
+		color: #4d4d4d;
+	}
+}
+
+@media (max-width: 360px) {
+	.amountCard {
+		width: auto;
+		height: auto;
+		padding: 30px 50px;
+	}
+}

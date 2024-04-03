@@ -1,0 +1,50 @@
+.quote {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 34px;
+	background-color: #f7ede8;
+	border-radius: 8px;
+
+	.quote__text {
+		max-width: 800px;
+		font-weight: 700;
+		font-size: 36.65px;
+		line-height: 140%;
+		text-align: center;
+	}
+
+	.quote__autor {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.autor__name {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 160%;
+	}
+
+	.autor__autorRole {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 160%;
+	}
+}
+
+@media (max-width: 480px) {
+	.quote {
+		.quote__text {
+			font-size: 20px;
+		}
+
+		.quote__autor {
+			flex-direction: column;
+		}
+	}
+}
