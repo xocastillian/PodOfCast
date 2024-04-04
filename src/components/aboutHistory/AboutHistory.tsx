@@ -25,7 +25,7 @@ const AboutHistory: FC = () => {
 					<div className={styles.history__items}>
 						<p className={styles.items__text}>
 							Eu non <b>diam</b> phasellus vestibulum lorem. Fringilla est ullamcorper eget nulla facilisi etiam dignissim. Id diam vel quam <b>elementum pulvinar</b>. <br /> <br />
-							Elementum eu facilisis sed odio morbi quis commodo. Sed odio morbi quis commodo odio aenean sed adipiscing odio diam. uno fablotoson louw uit.
+							Elementum eu facilisis sed odio morbi quis commodo. Sed odio morbi <b>quis</b> commodo odio aenean sed adipiscing odio diam. uno fablotoson louw uit.
 						</p>
 						<p className={styles.items__text}>
 							Lorem ipsum dolor sit amet, <b>consectetur adipiscing</b> elit. Quam pellentesque at bibendum euismod tellus duis cursus dignissim odio. Sit vulputate et integer in. Sit vel, senectus
